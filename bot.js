@@ -1,6 +1,6 @@
- import express from 'express'
- import bodyParser from 'body-parser'
- import request from 'superagent'
+var express = require("express")
+var bodyParser = require("body-parser")
+var request = require("superagent")
  
  const app = express()
  app.set('port', process.env.PORT || 5000)
