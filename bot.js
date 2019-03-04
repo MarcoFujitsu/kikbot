@@ -6,7 +6,7 @@ var request = require("superagent")
  app.set('port', process.env.PORT || 5000)
  app.use(bodyParser.json())
  
- const config = { url: 'https://d0d8fe3c.ngrok.io', connectorId: 'fa14e3cd-60ff-41e3-8977-28ebe010f502' }
+ const config = { url: 'https://d0d8fe3c.ngrok.io', connectorId: '49a7e4e2-22ad-4675-b3cc-a8e6acd5deb7' }
  
    /* Get the request from the connector */
  
